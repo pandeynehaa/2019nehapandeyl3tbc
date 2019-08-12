@@ -1,0 +1,109 @@
+<!DOCTYPE>
+<html>
+<style>
+		nav{
+		background-image: url("image/gall.jpg");
+		min-height:400px;
+		background-repeat:repeat;
+		text-align: center;
+		background-position: cover;
+	}
+
+</style>
+<link rel="stylesheet" href="CSS\Style.css">
+<script src="jQuery\jquery.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+	<title>HOF||Gallery</title>
+</head>
+<body>
+<figure class="logo">
+			<a href="home.html">
+			<img src="image\logo.png" alt="Hof logo" align="left" width="100px" height="100px">
+			</a>
+     </figure>
+ <header>
+
+	<nav class="Topnav">
+		<ul>
+			<li><a href="home.html">Home</a></li>
+			<li><a href="About.html">About</a> </li>  
+			<li><a href="Contact.html">Contact</a></li> 
+			<li><a href="Services.html">Services</a></li>   
+			<li><a class="active" href="Gallery.html">Gallery</a></li> 
+		</ul>
+	</nav>
+</header>
+
+<p class ="heading" style = "font-family:georgia,garamond,serif;font-size:25px;font-style:italic;">Models at HOF</p>
+<div class="rows">
+	<div class="columns">
+		<img src="image\1.jpg" alt="HOF Models pictures" width="300 px" height="400 px">
+			
+	</div>
+		<div class="columns">
+		<img src="image\2.jpg" alt="HOF Models pictures" width="300 px" height="400 px">
+	</div>
+
+	<div class="columns">
+		<img src="image\3.jpg" alt="HOF Models pictures" width="300 px" height="400 px">
+	</div>
+
+</div>
+
+<div class="rows">
+	<div class="columns">
+		<img src="image\4.jpg" alt="HOF Models pictures" width="300 px" height="400 px">		
+		
+	</div>
+	<div class="columns">
+		<img src="image\6.jpg" alt="HOF Models pictures" width="300 px" height="400 px">	
+	</div>
+	<div class="columns">
+		<img src="image\5.jpg" alt="HOF Models pictures" width="300 px" height="400 px">	
+	</div>
+</div>
+
+<div class="hidd">
+<div class="rows">
+	<div class="columns">
+		<img src="image\7.jpg" alt="HOF Models pictures" width="300 px" height="400 px">		
+		
+	</div>
+	<div class="columns">
+		<img src="image\8.jpg" alt="HOF Models pictures" width="300 px" height="400 px">	
+	</div>
+	<div class="columns">
+		<img src="image\9.jpg" alt="HOF Models pictures" width="300 px" height="400 px">	
+	</div>
+
+</div>
+</div>
+<div class="clr"></div>
+
+<button id="btnn">Show More..</button>
+
+
+
+
+
+<section class="social-btn">
+	<h3 class="text" style = "font-family:georgia,garamond,serif;font-size:15px;font-style:italic;">Link with us</h3>
+
+	<a href="https://www.facebook.com/" class="fa fa-facebook" target="blank"></a>
+	<a href="https://www.youtube.com/" class="fa fa-youtube" target="blank"></a>
+	<a href="https://www.instagram.com/" class="fa fa-instagram" target="blank"></a>
+</section>
+<script>
+$(document).ready(function(){
+  $("#btnn").click(function(){
+    $(".hidd").show();
+    	
+  });
+});
+</script>
+<a href="#top" >TOP</a>
+<footer>&copy all right reserved</footer>
+
+</body>
+</html>
